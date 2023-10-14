@@ -19,6 +19,8 @@ nav {
     position: sticky;
     padding: 1%;
     border-bottom: 2px solid rgba(91, 91, 91, 0.5);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
 }
 
 hr {
@@ -103,7 +105,10 @@ a, a:link, a:visited, a:active {
 .main_page .info {
     padding: 3% 10%;
     border-radius: 10px;
-    border: 5px solid white
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 3px solid rgba(255, 255, 255, 0.3);
 }
 
 .main_page .info h2 {
